@@ -13,10 +13,10 @@ function App() {
     <div >
       <NavbarComponent />
       <div className="wrapper">
-        <CardComponent image={rtanj} title="Rtanj" />
-        <CardComponent image={trem} title="Trem" />
-        <CardComponent image={babinZub} title="Babin zub" />
-        <CardComponent image={velikiStrbac} title="Veliki Štrbac" />
+        <CardComponent price="3000rsd" image={rtanj} title="Rtanj" />
+        <CardComponent price="4000rsd" image={trem} title="Trem" />
+        <CardComponent price="4500rsd" image={babinZub} title="Babin zub" />
+        <CardComponent price="3000rsd" image={velikiStrbac} title="Veliki Štrbac" />
       </div>
     </div>
   )

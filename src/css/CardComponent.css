@@ -1,7 +1,10 @@
+:root{
+    --primary-color: #333333;
+}
 .card{
     width: 400px;
     height: 400px;
-    background-color: #6343ac;
+    background-color: var(--primary-color);
     color: #fff;
     border-radius: 10px;
     display: flex;
@@ -10,27 +13,36 @@
     justify-content: center;
     gap: 20px;
 }
+.trip-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 button{
     background-color: #fff;
     font-size: 1rem;
-    color: #6343ac;
-    border: #6343ac;
+    color: var(--primary-color);
+    border: none;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.7px;
+    border: 1px solid var(--primary-color);
+    transition: all 0.4s ease;
+
 }
 
-/* button:hover{
-    background-color: #6343ac;
+button:hover{
+    background-color: var(--primary-color);
     color: #fff;
-    border: #fff 1px solid;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-} */
+    border: 1px solid #fff;
+}
+
 
 img {   
     width: 300px;
-    border: #212121 solid 1px;
+    /* border: #212121 solid 1px; */
     border-radius: 10px;
 }
